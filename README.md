@@ -1,9 +1,20 @@
 # Hand-Gesture-Recognition
 
-This project implements image based hand gesture recognition using deep learning. </br>
-4 gestures are recognized - 1) Fist, 2) One, 3) Palm, 4) Peace. </br>
+This project implements hand gesture recognition using 2 different approaches. One is using EMG signals and the other is using images. </br>
+4 gestures are recognized - 1) Fist/Rest, 2) One, 3) Palm/Five, 4) Peace/Two. </br>
 
-Link to dataset: </br>
+# EMG based recognition: 
+
+Dataset is created using TIVA-C development board and 2 EMG Sensors from Upside Down Labs. </br>
+Link to EMG dataset: </br>
+https://drive.google.com/drive/folders/1FuZavpRWnWinDOZcZ21C-xJbrTWOWpAX?usp=share_link </br>
+
+EMG_Model.ipynb can be run on Google Colab, hence it has no dependecies. Dataset must be uploaded on Google Drive first. </br>
+
+# Image based recognition:
+
+Dataset is created using OpenCV based hand extraction from live video feed from web-camera. </br>
+Link to image dataset: </br>
 https://drive.google.com/file/d/1HVX-onPxnU2i90w0JwQqQnkFg2eCLtYn/view?usp=share_link </br>
 
 Neural_Network.ipynb can be run on Google Colab, hence it has no dependencies. Dataset must be uploaded on Google Drive first. </br>
