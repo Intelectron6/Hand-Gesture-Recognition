@@ -6,7 +6,7 @@ This project implements hand gesture recognition using 2 different approaches. O
 # EMG based recognition: 
 
 Dataset is created using TIVA Embedded development board and 2 EMG Sensors from Upside Down Labs.Analog signals from sensors are converted using two inbuilt ADCs in 
-TIVA microcontrollers. These are then send to computer via UART interface.TIVA_code.c is flashed on TM4C123GXL microcontroller for this.</br>
+TIVA microcontrollers. These are then send to computer via UART interface.TIVA_code.c is flashed on TM4C123GH6PM MCU for this using Code composer studio.</br>
 Link to EMG dataset: </br>
 https://drive.google.com/drive/folders/1FuZavpRWnWinDOZcZ21C-xJbrTWOWpAX?usp=share_link </br>
 
