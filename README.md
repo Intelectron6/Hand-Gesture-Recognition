@@ -5,7 +5,7 @@ This project implements hand gesture recognition using 2 different approaches. O
 
 # EMG based recognition: 
 
-Dataset is created using TIVA Embedded development board and 2 EMG Sensors from Upside Down Labs.Analog signals from sensors are converted using two inbuilt ADCs in </br>
+Dataset is created using TIVA Embedded development board and 2 EMG Sensors from Upside Down Labs.Analog signals from sensors are converted using two inbuilt ADCs in 
 TIVA microcontrollers. These are then send to computer via UART interface.</br>
 Link to EMG dataset: </br>
 https://drive.google.com/drive/folders/1FuZavpRWnWinDOZcZ21C-xJbrTWOWpAX?usp=share_link </br>
